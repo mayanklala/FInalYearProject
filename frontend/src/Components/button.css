@@ -1,0 +1,44 @@
+:root{
+    --upload: #4628ff ;
+    --delete: #eb3f27;
+    --showplag: #75fa83;
+    --dark: #181717;
+
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200 ;
+    border-radius: 20;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+}
+
+.btn--upload--outline{
+    background-color: var(--upload);
+    border: 20px solid var(--showplag);
+    color: var(--dark);
+    size: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.btn--delete--outline{
+    background-color: var(--delete);
+    border: 2px solid var(--dark);
+    color: var(--dark);
+    size: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.btn--showplag--outline{
+    background-color: var(--showplag);
+    border: 2px solid var(--dark);
+    color: var(--dark);
+    size: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
